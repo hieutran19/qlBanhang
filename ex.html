@@ -1,0 +1,26 @@
+<script>
+var a = 5;
+/*
+ES5,6,...
+1. var, let, const
+2. Arrow Function
+3. Template String
+4. Map
+*/
+// var a;
+// let b;
+// const c=3.14;
+
+const courses = [
+    "ES5, ES6,...",
+    "NodeJS",
+    "MongoDB",
+];
+
+const new_courses = courses.map((value, index)=>{
+    return `${index}: ${value} 2022`;
+});
+
+document.write(new_courses);
+
+</script>
